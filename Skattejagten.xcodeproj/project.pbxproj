@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		653D0457A203762CC2966F06 /* Pods_SkattejagtenTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D03AEC9AD09268760D05568E /* Pods_SkattejagtenTests.framework */; };
 		CDB0EC9420CA88800039075F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB0EC9320CA88800039075F /* AppDelegate.swift */; };
 		CDB0EC9620CA88800039075F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB0EC9520CA88800039075F /* ViewController.swift */; };
 		CDB0EC9920CA88800039075F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDB0EC9720CA88800039075F /* Main.storyboard */; };
@@ -35,6 +36,11 @@
 		CDB0ECDE20CA8AFF0039075F /* SkatteJagtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB0ECC820CA8AFF0039075F /* SkatteJagtViewController.swift */; };
 		CDB0ECDF20CA8AFF0039075F /* SkatteJagtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB0ECC820CA8AFF0039075F /* SkatteJagtViewController.swift */; };
 		CDB0ECE020CA8AFF0039075F /* SkatteJagtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB0ECC820CA8AFF0039075F /* SkatteJagtViewController.swift */; };
+		CDB0ECE620CE6F790039075F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CDB0ECE520CE6F790039075F /* GoogleService-Info.plist */; };
+		CDB0ECE720CE6F790039075F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CDB0ECE520CE6F790039075F /* GoogleService-Info.plist */; };
+		CDB0ECE820CE6F790039075F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CDB0ECE520CE6F790039075F /* GoogleService-Info.plist */; };
+		D8F535E868EAFEE63E4CBDDD /* Pods_SkattejagtenUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AED6483CD1093E0222440DCF /* Pods_SkattejagtenUITests.framework */; };
+		DE6228887D118CFB273D7959 /* Pods_Skattejagten.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC17A29017628C28A200696B /* Pods_Skattejagten.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +61,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A697CC0830A56325F770AFC /* Pods-Skattejagten.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Skattejagten.release.xcconfig"; path = "Pods/Target Support Files/Pods-Skattejagten/Pods-Skattejagten.release.xcconfig"; sourceTree = "<group>"; };
+		4CD9C60DBBF55901C4898783 /* Pods-SkattejagtenUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkattejagtenUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SkattejagtenUITests/Pods-SkattejagtenUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6F36E4883EDC2FE3FC236E65 /* Pods-SkattejagtenUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkattejagtenUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SkattejagtenUITests/Pods-SkattejagtenUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8889B65985BA434ED2229DA5 /* Pods-SkattejagtenTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkattejagtenTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SkattejagtenTests/Pods-SkattejagtenTests.debug.xcconfig"; sourceTree = "<group>"; };
+		97BD63A15217502FF2231A57 /* Pods-Skattejagten.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Skattejagten.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Skattejagten/Pods-Skattejagten.debug.xcconfig"; sourceTree = "<group>"; };
+		A59D2507785D3C180B9C2043 /* Pods-SkattejagtenTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkattejagtenTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SkattejagtenTests/Pods-SkattejagtenTests.release.xcconfig"; sourceTree = "<group>"; };
+		AED6483CD1093E0222440DCF /* Pods_SkattejagtenUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkattejagtenUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC17A29017628C28A200696B /* Pods_Skattejagten.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Skattejagten.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDB0EC9020CA88800039075F /* Skattejagten.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skattejagten.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDB0EC9320CA88800039075F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDB0EC9520CA88800039075F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -75,6 +89,8 @@
 		CDB0ECC520CA8AFE0039075F /* GameElements.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameElements.swift; sourceTree = "<group>"; };
 		CDB0ECC620CA8AFE0039075F /* player.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = player.atlas; sourceTree = "<group>"; };
 		CDB0ECC820CA8AFF0039075F /* SkatteJagtViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkatteJagtViewController.swift; sourceTree = "<group>"; };
+		CDB0ECE520CE6F790039075F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		D03AEC9AD09268760D05568E /* Pods_SkattejagtenTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkattejagtenTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE6228887D118CFB273D7959 /* Pods_Skattejagten.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				653D0457A203762CC2966F06 /* Pods_SkattejagtenTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,12 +114,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8F535E868EAFEE63E4CBDDD /* Pods_SkattejagtenUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1BCCE7CF16C9AE0B05DF6FED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97BD63A15217502FF2231A57 /* Pods-Skattejagten.debug.xcconfig */,
+				2A697CC0830A56325F770AFC /* Pods-Skattejagten.release.xcconfig */,
+				8889B65985BA434ED2229DA5 /* Pods-SkattejagtenTests.debug.xcconfig */,
+				A59D2507785D3C180B9C2043 /* Pods-SkattejagtenTests.release.xcconfig */,
+				4CD9C60DBBF55901C4898783 /* Pods-SkattejagtenUITests.debug.xcconfig */,
+				6F36E4883EDC2FE3FC236E65 /* Pods-SkattejagtenUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		27BB4AF3D52BDBD4689ED7F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC17A29017628C28A200696B /* Pods_Skattejagten.framework */,
+				D03AEC9AD09268760D05568E /* Pods_SkattejagtenTests.framework */,
+				AED6483CD1093E0222440DCF /* Pods_SkattejagtenUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CDB0EC8720CA88800039075F = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +151,8 @@
 				CDB0ECA720CA88830039075F /* SkattejagtenTests */,
 				CDB0ECB220CA88830039075F /* SkattejagtenUITests */,
 				CDB0EC9120CA88800039075F /* Products */,
+				1BCCE7CF16C9AE0B05DF6FED /* Pods */,
+				27BB4AF3D52BDBD4689ED7F0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,6 +181,7 @@
 				CDB0EC9720CA88800039075F /* Main.storyboard */,
 				CDB0EC9A20CA88830039075F /* Assets.xcassets */,
 				CDB0EC9C20CA88830039075F /* LaunchScreen.storyboard */,
+				CDB0ECE520CE6F790039075F /* GoogleService-Info.plist */,
 				CDB0EC9F20CA88830039075F /* Info.plist */,
 			);
 			path = Skattejagten;
@@ -167,9 +212,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CDB0ECB820CA88830039075F /* Build configuration list for PBXNativeTarget "Skattejagten" */;
 			buildPhases = (
+				CC2962C096604BF9E399E9CC /* [CP] Check Pods Manifest.lock */,
 				CDB0EC8C20CA88800039075F /* Sources */,
 				CDB0EC8D20CA88800039075F /* Frameworks */,
 				CDB0EC8E20CA88800039075F /* Resources */,
+				185B4BFB6FB320E3FA3A829D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -184,6 +231,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CDB0ECBB20CA88830039075F /* Build configuration list for PBXNativeTarget "SkattejagtenTests" */;
 			buildPhases = (
+				B46D8958BA1F12798373DCC5 /* [CP] Check Pods Manifest.lock */,
 				CDB0ECA020CA88830039075F /* Sources */,
 				CDB0ECA120CA88830039075F /* Frameworks */,
 				CDB0ECA220CA88830039075F /* Resources */,
@@ -202,6 +250,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CDB0ECBE20CA88830039075F /* Build configuration list for PBXNativeTarget "SkattejagtenUITests" */;
 			buildPhases = (
+				6C3615FF945DD8670A30053B /* [CP] Check Pods Manifest.lock */,
 				CDB0ECAB20CA88830039075F /* Sources */,
 				CDB0ECAC20CA88830039075F /* Frameworks */,
 				CDB0ECAD20CA88830039075F /* Resources */,
@@ -270,6 +319,7 @@
 				CDB0EC9B20CA88830039075F /* Assets.xcassets in Resources */,
 				CDB0ECCF20CA8AFF0039075F /* CoinSound.mp3 in Resources */,
 				CDB0EC9920CA88800039075F /* Main.storyboard in Resources */,
+				CDB0ECE620CE6F790039075F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +328,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDB0ECD920CA8AFF0039075F /* player.atlas in Resources */,
+				CDB0ECE720CE6F790039075F /* GoogleService-Info.plist in Resources */,
 				CDB0ECCA20CA8AFF0039075F /* GameScene.sks in Resources */,
 				CDB0ECD020CA8AFF0039075F /* CoinSound.mp3 in Resources */,
 			);
@@ -288,12 +339,92 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDB0ECDA20CA8AFF0039075F /* player.atlas in Resources */,
+				CDB0ECE820CE6F790039075F /* GoogleService-Info.plist in Resources */,
 				CDB0ECCB20CA8AFF0039075F /* GameScene.sks in Resources */,
 				CDB0ECD120CA8AFF0039075F /* CoinSound.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		185B4BFB6FB320E3FA3A829D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Skattejagten/Pods-Skattejagten-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Skattejagten/Pods-Skattejagten-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C3615FF945DD8670A30053B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SkattejagtenUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B46D8958BA1F12798373DCC5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SkattejagtenTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC2962C096604BF9E399E9CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Skattejagten-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CDB0EC8C20CA88800039075F /* Sources */ = {
@@ -484,15 +615,13 @@
 		};
 		CDB0ECB920CA88830039075F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97BD63A15217502FF2231A57 /* Pods-Skattejagten.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R5TB6Z53SR;
 				INFOPLIST_FILE = Skattejagten/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dtu.Skattejagten;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -502,15 +631,13 @@
 		};
 		CDB0ECBA20CA88830039075F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A697CC0830A56325F770AFC /* Pods-Skattejagten.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R5TB6Z53SR;
 				INFOPLIST_FILE = Skattejagten/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dtu.Skattejagten;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -520,17 +647,14 @@
 		};
 		CDB0ECBC20CA88830039075F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8889B65985BA434ED2229DA5 /* Pods-SkattejagtenTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R5TB6Z53SR;
 				INFOPLIST_FILE = SkattejagtenTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dtu.SkattejagtenTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -541,17 +665,14 @@
 		};
 		CDB0ECBD20CA88830039075F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A59D2507785D3C180B9C2043 /* Pods-SkattejagtenTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R5TB6Z53SR;
 				INFOPLIST_FILE = SkattejagtenTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dtu.SkattejagtenTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -562,16 +683,13 @@
 		};
 		CDB0ECBF20CA88830039075F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CD9C60DBBF55901C4898783 /* Pods-SkattejagtenUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R5TB6Z53SR;
 				INFOPLIST_FILE = SkattejagtenUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dtu.SkattejagtenUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -582,16 +700,13 @@
 		};
 		CDB0ECC020CA88830039075F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F36E4883EDC2FE3FC236E65 /* Pods-SkattejagtenUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R5TB6Z53SR;
 				INFOPLIST_FILE = SkattejagtenUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dtu.SkattejagtenUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
