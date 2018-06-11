@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" image="baggrund.png" translatesAutoresizingMaskIntoConstraints="NO" id="HFN-bI-dh4">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" image="baggrund" translatesAutoresizingMaskIntoConstraints="NO" id="HFN-bI-dh4">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SKATTEJAGT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f4U-5b-Ck4">
@@ -71,7 +71,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="baggrund.png" width="1002" height="996"/>
+        <image name="baggrund" width="1002" height="996"/>
         <image name="boy" width="512" height="512"/>
     </resources>
 </document>
