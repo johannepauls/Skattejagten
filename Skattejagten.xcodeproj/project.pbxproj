@@ -32,9 +32,6 @@
 		CDB0ECD820CA8AFF0039075F /* player.atlas in Resources */ = {isa = PBXBuildFile; fileRef = CDB0ECC620CA8AFE0039075F /* player.atlas */; };
 		CDB0ECD920CA8AFF0039075F /* player.atlas in Resources */ = {isa = PBXBuildFile; fileRef = CDB0ECC620CA8AFE0039075F /* player.atlas */; };
 		CDB0ECDA20CA8AFF0039075F /* player.atlas in Resources */ = {isa = PBXBuildFile; fileRef = CDB0ECC620CA8AFE0039075F /* player.atlas */; };
-		CDB0ECDB20CA8AFF0039075F /* Images in Resources */ = {isa = PBXBuildFile; fileRef = CDB0ECC720CA8AFE0039075F /* Images */; };
-		CDB0ECDC20CA8AFF0039075F /* Images in Resources */ = {isa = PBXBuildFile; fileRef = CDB0ECC720CA8AFE0039075F /* Images */; };
-		CDB0ECDD20CA8AFF0039075F /* Images in Resources */ = {isa = PBXBuildFile; fileRef = CDB0ECC720CA8AFE0039075F /* Images */; };
 		CDB0ECDE20CA8AFF0039075F /* SkatteJagtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB0ECC820CA8AFF0039075F /* SkatteJagtViewController.swift */; };
 		CDB0ECDF20CA8AFF0039075F /* SkatteJagtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB0ECC820CA8AFF0039075F /* SkatteJagtViewController.swift */; };
 		CDB0ECE020CA8AFF0039075F /* SkatteJagtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB0ECC820CA8AFF0039075F /* SkatteJagtViewController.swift */; };
@@ -77,7 +74,6 @@
 		CDB0ECC420CA8AFE0039075F /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		CDB0ECC520CA8AFE0039075F /* GameElements.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameElements.swift; sourceTree = "<group>"; };
 		CDB0ECC620CA8AFE0039075F /* player.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = player.atlas; sourceTree = "<group>"; };
-		CDB0ECC720CA8AFE0039075F /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
 		CDB0ECC820CA8AFF0039075F /* SkatteJagtViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkatteJagtViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -136,7 +132,6 @@
 				CDB0ECC120CA8AFD0039075F /* GameScene.sks */,
 				CDB0ECC420CA8AFE0039075F /* GameScene.swift */,
 				CDB0ECC220CA8AFD0039075F /* GameViewController.swift */,
-				CDB0ECC720CA8AFE0039075F /* Images */,
 				CDB0ECC620CA8AFE0039075F /* player.atlas */,
 				CDB0ECC820CA8AFF0039075F /* SkatteJagtViewController.swift */,
 				CDB0EC9720CA88800039075F /* Main.storyboard */,
@@ -271,7 +266,6 @@
 			files = (
 				CDB0ECD820CA8AFF0039075F /* player.atlas in Resources */,
 				CDB0ECC920CA8AFF0039075F /* GameScene.sks in Resources */,
-				CDB0ECDB20CA8AFF0039075F /* Images in Resources */,
 				CDB0EC9E20CA88830039075F /* LaunchScreen.storyboard in Resources */,
 				CDB0EC9B20CA88830039075F /* Assets.xcassets in Resources */,
 				CDB0ECCF20CA8AFF0039075F /* CoinSound.mp3 in Resources */,
@@ -283,7 +277,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDB0ECDC20CA8AFF0039075F /* Images in Resources */,
 				CDB0ECD920CA8AFF0039075F /* player.atlas in Resources */,
 				CDB0ECCA20CA8AFF0039075F /* GameScene.sks in Resources */,
 				CDB0ECD020CA8AFF0039075F /* CoinSound.mp3 in Resources */,
@@ -294,7 +287,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDB0ECDD20CA8AFF0039075F /* Images in Resources */,
 				CDB0ECDA20CA8AFF0039075F /* player.atlas in Resources */,
 				CDB0ECCB20CA8AFF0039075F /* GameScene.sks in Resources */,
 				CDB0ECD120CA8AFF0039075F /* CoinSound.mp3 in Resources */,
