@@ -304,7 +304,7 @@
         <!--Homepage-->
         <scene sceneID="d78-4G-xHB">
             <objects>
-                <viewController title="Homepage" id="vRh-aK-XKW" customClass="ViewControllerHome" customModule="Skattejagten" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Homepage" id="vRh-aK-XKW" customClass="SoundViewController" customModule="Skattejagten" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wiN-FH-HHF">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -595,7 +595,7 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="ybB-I1-Yki"/>
-        <segue reference="RmW-bU-e8S"/>
+        <segue reference="rTZ-dX-LVG"/>
         <segue reference="UW7-qA-GfQ"/>
     </inferredMetricsTieBreakers>
 </document>
