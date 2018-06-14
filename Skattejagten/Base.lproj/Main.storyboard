@@ -344,6 +344,9 @@
                                 <rect key="frame" x="-48" y="413" width="234" height="234"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="boy"/>
+                                <connections>
+                                    <action selector="afspilLyd:" destination="vRh-aK-XKW" eventType="touchUpInside" id="cBi-rx-GWa"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Tre" translatesAutoresizingMaskIntoConstraints="NO" id="rJ3-W8-D9d">
                                 <rect key="frame" x="1" y="325" width="67" height="95"/>

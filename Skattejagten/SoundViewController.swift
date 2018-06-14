@@ -17,7 +17,7 @@ class SoundViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        let url = Bundle.main.url(forResource:"CoinSound", withExtension:"mp3")
+        let url = Bundle.main.url(forResource:"DrengTale", withExtension:"mp3")
         
         do{
             audioPlayer = try AVAudioPlayer(contentsOf: url!)
@@ -33,7 +33,8 @@ class SoundViewController: UIViewController {
     }
     
     
-    @IBAction func playPressed(_ sender: UIButton) {
+    
+    @IBAction func afspilLyd(_ sender: UIButton) {
         audioPlayer.play()
     }
 }
