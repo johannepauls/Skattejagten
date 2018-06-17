@@ -15,8 +15,9 @@ target 'Skattejagten' do
     inherit! :search_paths
     # Pods for testing
   end
-
 pod 'Firebase/Core'
 pod 'Firebase/Database'
+pod 'Firebase/Auth'
+pod 'EstimoteProximitySDK'
 
 end

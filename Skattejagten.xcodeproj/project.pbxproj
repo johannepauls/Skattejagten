@@ -12,7 +12,7 @@
 		822D1F4E20D276FF0031103C /* SoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822D1F4D20D276FF0031103C /* SoundViewController.swift */; };
 		822D1F5820D28A490031103C /* DrengTale.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 822D1F5720D28A490031103C /* DrengTale.mp3 */; };
 		CDB0EC9420CA88800039075F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB0EC9320CA88800039075F /* AppDelegate.swift */; };
-		CDB0EC9620CA88800039075F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB0EC9520CA88800039075F /* ViewController.swift */; };
+		CDB0EC9620CA88800039075F /* signUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB0EC9520CA88800039075F /* signUpViewController.swift */; };
 		CDB0EC9920CA88800039075F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDB0EC9720CA88800039075F /* Main.storyboard */; };
 		CDB0EC9B20CA88830039075F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDB0EC9A20CA88830039075F /* Assets.xcassets */; };
 		CDB0EC9E20CA88830039075F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDB0EC9C20CA88830039075F /* LaunchScreen.storyboard */; };
@@ -42,6 +42,9 @@
 		CDB0ECE620CE6F790039075F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CDB0ECE520CE6F790039075F /* GoogleService-Info.plist */; };
 		CDB0ECE720CE6F790039075F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CDB0ECE520CE6F790039075F /* GoogleService-Info.plist */; };
 		CDB0ECE820CE6F790039075F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CDB0ECE520CE6F790039075F /* GoogleService-Info.plist */; };
+		CDD8393820D3A2CC009DD7C0 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD8393720D3A2CC009DD7C0 /* SignInViewController.swift */; };
+		CDD8393920D3A2CC009DD7C0 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD8393720D3A2CC009DD7C0 /* SignInViewController.swift */; };
+		CDD8393A20D3A2CC009DD7C0 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD8393720D3A2CC009DD7C0 /* SignInViewController.swift */; };
 		D8F535E868EAFEE63E4CBDDD /* Pods_SkattejagtenUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AED6483CD1093E0222440DCF /* Pods_SkattejagtenUITests.framework */; };
 		DE6228887D118CFB273D7959 /* Pods_Skattejagten.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC17A29017628C28A200696B /* Pods_Skattejagten.framework */; };
 /* End PBXBuildFile section */
@@ -75,9 +78,12 @@
 		A59D2507785D3C180B9C2043 /* Pods-SkattejagtenTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkattejagtenTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SkattejagtenTests/Pods-SkattejagtenTests.release.xcconfig"; sourceTree = "<group>"; };
 		AED6483CD1093E0222440DCF /* Pods_SkattejagtenUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkattejagtenUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC17A29017628C28A200696B /* Pods_Skattejagten.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Skattejagten.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD81EA8620D3B2D400972C4E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CD81EA8820D3BB2300972C4E /* HospitalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalViewController.swift; sourceTree = "<group>"; };
+		CD81EA8C20D3C6D600972C4E /* boy-kopi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "boy-kopi.png"; sourceTree = "<group>"; };
 		CDB0EC9020CA88800039075F /* Skattejagten.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skattejagten.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDB0EC9320CA88800039075F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CDB0EC9520CA88800039075F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CDB0EC9520CA88800039075F /* signUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUpViewController.swift; sourceTree = "<group>"; };
 		CDB0EC9820CA88800039075F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CDB0EC9A20CA88830039075F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDB0EC9D20CA88830039075F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -96,6 +102,7 @@
 		CDB0ECC620CA8AFE0039075F /* player.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = player.atlas; sourceTree = "<group>"; };
 		CDB0ECC820CA8AFF0039075F /* SkatteJagtViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkatteJagtViewController.swift; sourceTree = "<group>"; };
 		CDB0ECE520CE6F790039075F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		CDD8393720D3A2CC009DD7C0 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		D03AEC9AD09268760D05568E /* Pods_SkattejagtenTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkattejagtenTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -175,19 +182,23 @@
 		CDB0EC9220CA88800039075F /* Skattejagten */ = {
 			isa = PBXGroup;
 			children = (
+				CDD8393720D3A2CC009DD7C0 /* SignInViewController.swift */,
+				CD81EA8620D3B2D400972C4E /* HomeViewController.swift */,
 				CDB0EC9320CA88800039075F /* AppDelegate.swift */,
-				CDB0EC9520CA88800039075F /* ViewController.swift */,
+				CDB0EC9520CA88800039075F /* signUpViewController.swift */,
 				CDB0ECC320CA8AFE0039075F /* CoinSound.mp3 */,
 				822D1F5720D28A490031103C /* DrengTale.mp3 */,
 				CDB0ECC520CA8AFE0039075F /* GameElements.swift */,
 				822D1F4D20D276FF0031103C /* SoundViewController.swift */,
 				CDB0ECC120CA8AFD0039075F /* GameScene.sks */,
+				CD81EA8C20D3C6D600972C4E /* boy-kopi.png */,
 				CDB0ECC420CA8AFE0039075F /* GameScene.swift */,
 				822400FB20CFDC5B000D124D /* HomepageViewController.swift */,
 				CDB0ECC220CA8AFD0039075F /* GameViewController.swift */,
-				CDB0ECC620CA8AFE0039075F /* player.atlas */,
 				CDB0ECC820CA8AFF0039075F /* SkatteJagtViewController.swift */,
+				CDB0ECC620CA8AFE0039075F /* player.atlas */,
 				CDB0EC9720CA88800039075F /* Main.storyboard */,
+				CD81EA8820D3BB2300972C4E /* HospitalViewController.swift */,
 				CDB0EC9A20CA88830039075F /* Assets.xcassets */,
 				CDB0EC9C20CA88830039075F /* LaunchScreen.storyboard */,
 				CDB0ECE520CE6F790039075F /* GoogleService-Info.plist */,
@@ -286,6 +297,11 @@
 				TargetAttributes = {
 					CDB0EC8F20CA88800039075F = {
 						CreatedOnToolsVersion = 9.4;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					CDB0ECA320CA88830039075F = {
 						CreatedOnToolsVersion = 9.4;
@@ -365,12 +381,18 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Skattejagten/Pods-Skattejagten-frameworks.sh",
+				"${PODS_ROOT}/EstimoteBluetoothScanning/EstimoteBluetoothScanning/EstimoteBluetoothScanning.framework",
+				"${PODS_ROOT}/EstimoteProximitySDK/EstimoteProximitySDK/EstimoteProximitySDK.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EstimoteBluetoothScanning.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EstimoteProximitySDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
@@ -442,7 +464,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDB0ECD520CA8AFF0039075F /* GameElements.swift in Sources */,
-				CDB0EC9620CA88800039075F /* ViewController.swift in Sources */,
+				CDB0EC9620CA88800039075F /* signUpViewController.swift in Sources */,
 				CDB0ECDE20CA8AFF0039075F /* SkatteJagtViewController.swift in Sources */,
 				822400FC20CFDC5B000D124D /* HomepageViewController.swift in Sources */,
 				822D1F4E20D276FF0031103C /* SoundViewController.swift in Sources */,
@@ -456,6 +478,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDD8393920D3A2CC009DD7C0 /* SignInViewController.swift in Sources */,
 				CDB0ECD620CA8AFF0039075F /* GameElements.swift in Sources */,
 				CDB0ECDF20CA8AFF0039075F /* SkatteJagtViewController.swift in Sources */,
 				CDB0ECD320CA8AFF0039075F /* GameScene.swift in Sources */,
@@ -468,6 +491,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDD8393A20D3A2CC009DD7C0 /* SignInViewController.swift in Sources */,
 				CDB0ECD720CA8AFF0039075F /* GameElements.swift in Sources */,
 				CDB0ECE020CA8AFF0039075F /* SkatteJagtViewController.swift in Sources */,
 				CDB0ECD420CA8AFF0039075F /* GameScene.swift in Sources */,
@@ -631,7 +655,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = R5TB6Z53SR;
+				DEVELOPMENT_TEAM = G6TSQJ6DQ5;
 				INFOPLIST_FILE = Skattejagten/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -639,7 +663,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = dtu.Skattejagten;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -650,7 +674,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = R5TB6Z53SR;
+				DEVELOPMENT_TEAM = G6TSQJ6DQ5;
 				INFOPLIST_FILE = Skattejagten/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -658,7 +682,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = dtu.Skattejagten;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

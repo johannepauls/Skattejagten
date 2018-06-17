@@ -8,16 +8,18 @@
 
 import UIKit
 import Firebase
+import EstimoteProximitySDK
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var cloudCredentials: EPXCloudCredentials!
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         FirebaseApp.configure()
+        cloudCredentials = EPXCloudCredentials(appID: "skattejagten-9jn", appToken: "Y83403059e2cc7aa4e334c0ded931ca8a")
         return true
     }
 

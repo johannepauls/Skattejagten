@@ -7,9 +7,9 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>459647386505-rvk3h1tgudng3hnr5gks1bqvf80gi2cm.apps.googleusercontent.com</string>
+	<string>459647386505-c2b13vfunel2fa9r3eojlg5rc4glos5d.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.459647386505-rvk3h1tgudng3hnr5gks1bqvf80gi2cm</string>
+	<string>com.googleusercontent.apps.459647386505-c2b13vfunel2fa9r3eojlg5rc4glos5d</string>
 	<key>API_KEY</key>
 	<string>AIzaSyAOENlymG208_AzAQPdxU0mXywp0I3zmXA</string>
 	<key>GCM_SENDER_ID</key>
@@ -17,7 +17,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>dtu.Skattejagten</string>
+	<string>dtu.diplom.s165269.Skattejagten</string>
 	<key>PROJECT_ID</key>
 	<string>jemca-skattejagt</string>
 	<key>STORAGE_BUCKET</key>
@@ -33,7 +33,7 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:459647386505:ios:182267e02c4c4c4f</string>
+	<string>1:459647386505:ios:0378a5e5d1185efc</string>
 	<key>DATABASE_URL</key>
 	<string>https://jemca-skattejagt.firebaseio.com</string>
 </dict>
