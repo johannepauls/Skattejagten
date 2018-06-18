@@ -342,7 +342,7 @@
         <!--Homepage-->
         <scene sceneID="d78-4G-xHB">
             <objects>
-                <viewController title="Homepage" id="vRh-aK-XKW" customClass="SoundViewController" customModule="Skattejagten" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Homepage" id="vRh-aK-XKW" customClass="HomeViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wiN-FH-HHF">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -351,8 +351,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w5F-CK-2Mi">
-                                <rect key="frame" x="169" y="242" width="206" height="200"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="frame" x="-509" y="-305" width="884" height="747"/>
                                 <gestureRecognizers/>
                                 <state key="normal" title="Button" image="Hospital"/>
                                 <connections>
@@ -360,8 +359,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VRd-qB-nI6">
-                                <rect key="frame" x="229" y="203" width="108" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="frame" x="-407" y="-14" width="744" height="262"/>
                                 <gestureRecognizers/>
                                 <state key="normal" title="Button" image="Heli"/>
                                 <connections>
@@ -387,8 +385,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="59v-Dn-diA">
-                                <rect key="frame" x="-48" y="413" width="234" height="234"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="frame" x="-380" y="135" width="566" height="512"/>
                                 <gestureRecognizers/>
                                 <state key="normal" title="Button" image="boy"/>
                                 <connections>
@@ -396,8 +393,7 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Tre" translatesAutoresizingMaskIntoConstraints="NO" id="rJ3-W8-D9d">
-                                <rect key="frame" x="1" y="325" width="67" height="95"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="frame" x="1" y="-580" width="718" height="1000"/>
                                 <gestureRecognizers/>
                             </imageView>
                         </subviews>
@@ -722,9 +718,7 @@
         <image name="xray" width="224" height="224"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="b9T-c3-1zE"/>
-        <segue reference="fSZ-wG-os3"/>
-        <segue reference="rTZ-dX-LVG"/>
+        <segue reference="ycQ-L0-3mj"/>
         <segue reference="UW7-qA-GfQ"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -2,14 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>NSBluetoothPeripheralUsageDescription</key>
-	<string>bluetooth til Beacons</string>
-	<key>NSCameraUsageDescription</key>
-	<string>Vi skal bruge kamera for cool AR</string>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>Din placering skal bruges for at kunne deltage i skattejagten</string>
-	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>Din placering skal bruges for at kunne deltage i skattejagten når appen ikke er åben</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
@@ -28,6 +20,14 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>bluetooth til Beacons</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Vi skal bruge kamera for cool AR</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Din placering skal bruges for at kunne deltage i skattejagten når appen ikke er åben</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Din placering skal bruges for at kunne deltage i skattejagten</string>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>bluetooth-central</string>

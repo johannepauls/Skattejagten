@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		653D0457A203762CC2966F06 /* Pods_SkattejagtenTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D03AEC9AD09268760D05568E /* Pods_SkattejagtenTests.framework */; };
-		822400FC20CFDC5B000D124D /* HomepageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822400FB20CFDC5B000D124D /* HomepageViewController.swift */; };
-		822D1F4E20D276FF0031103C /* SoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822D1F4D20D276FF0031103C /* SoundViewController.swift */; };
 		822D1F5820D28A490031103C /* DrengTale.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 822D1F5720D28A490031103C /* DrengTale.mp3 */; };
 		CDB0EC9420CA88800039075F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB0EC9320CA88800039075F /* AppDelegate.swift */; };
 		CDB0EC9620CA88800039075F /* signUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB0EC9520CA88800039075F /* signUpViewController.swift */; };
@@ -42,7 +40,6 @@
 		CDB0ECE620CE6F790039075F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CDB0ECE520CE6F790039075F /* GoogleService-Info.plist */; };
 		CDB0ECE720CE6F790039075F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CDB0ECE520CE6F790039075F /* GoogleService-Info.plist */; };
 		CDB0ECE820CE6F790039075F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CDB0ECE520CE6F790039075F /* GoogleService-Info.plist */; };
-		CDD8393820D3A2CC009DD7C0 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD8393720D3A2CC009DD7C0 /* SignInViewController.swift */; };
 		CDD8393920D3A2CC009DD7C0 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD8393720D3A2CC009DD7C0 /* SignInViewController.swift */; };
 		CDD8393A20D3A2CC009DD7C0 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD8393720D3A2CC009DD7C0 /* SignInViewController.swift */; };
 		D8F535E868EAFEE63E4CBDDD /* Pods_SkattejagtenUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AED6483CD1093E0222440DCF /* Pods_SkattejagtenUITests.framework */; };
@@ -70,8 +67,6 @@
 		2A697CC0830A56325F770AFC /* Pods-Skattejagten.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Skattejagten.release.xcconfig"; path = "Pods/Target Support Files/Pods-Skattejagten/Pods-Skattejagten.release.xcconfig"; sourceTree = "<group>"; };
 		4CD9C60DBBF55901C4898783 /* Pods-SkattejagtenUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkattejagtenUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SkattejagtenUITests/Pods-SkattejagtenUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6F36E4883EDC2FE3FC236E65 /* Pods-SkattejagtenUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkattejagtenUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SkattejagtenUITests/Pods-SkattejagtenUITests.release.xcconfig"; sourceTree = "<group>"; };
-		822400FB20CFDC5B000D124D /* HomepageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepageViewController.swift; sourceTree = "<group>"; };
-		822D1F4D20D276FF0031103C /* SoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundViewController.swift; sourceTree = "<group>"; };
 		822D1F5720D28A490031103C /* DrengTale.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = DrengTale.mp3; sourceTree = "<group>"; };
 		8889B65985BA434ED2229DA5 /* Pods-SkattejagtenTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkattejagtenTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SkattejagtenTests/Pods-SkattejagtenTests.debug.xcconfig"; sourceTree = "<group>"; };
 		97BD63A15217502FF2231A57 /* Pods-Skattejagten.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Skattejagten.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Skattejagten/Pods-Skattejagten.debug.xcconfig"; sourceTree = "<group>"; };
@@ -189,11 +184,9 @@
 				CDB0ECC320CA8AFE0039075F /* CoinSound.mp3 */,
 				822D1F5720D28A490031103C /* DrengTale.mp3 */,
 				CDB0ECC520CA8AFE0039075F /* GameElements.swift */,
-				822D1F4D20D276FF0031103C /* SoundViewController.swift */,
 				CDB0ECC120CA8AFD0039075F /* GameScene.sks */,
 				CD81EA8C20D3C6D600972C4E /* boy-kopi.png */,
 				CDB0ECC420CA8AFE0039075F /* GameScene.swift */,
-				822400FB20CFDC5B000D124D /* HomepageViewController.swift */,
 				CDB0ECC220CA8AFD0039075F /* GameViewController.swift */,
 				CDB0ECC820CA8AFF0039075F /* SkatteJagtViewController.swift */,
 				CDB0ECC620CA8AFE0039075F /* player.atlas */,
@@ -466,8 +459,6 @@
 				CDB0ECD520CA8AFF0039075F /* GameElements.swift in Sources */,
 				CDB0EC9620CA88800039075F /* signUpViewController.swift in Sources */,
 				CDB0ECDE20CA8AFF0039075F /* SkatteJagtViewController.swift in Sources */,
-				822400FC20CFDC5B000D124D /* HomepageViewController.swift in Sources */,
-				822D1F4E20D276FF0031103C /* SoundViewController.swift in Sources */,
 				CDB0ECCC20CA8AFF0039075F /* GameViewController.swift in Sources */,
 				CDB0ECD220CA8AFF0039075F /* GameScene.swift in Sources */,
 				CDB0EC9420CA88800039075F /* AppDelegate.swift in Sources */,
@@ -661,7 +652,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dtu.Skattejagten;
+				PRODUCT_BUNDLE_IDENTIFIER = dtu.diplom.s165269.Skattejagten;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -680,7 +671,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dtu.Skattejagten;
+				PRODUCT_BUNDLE_IDENTIFIER = dtu.diplom.s165269.Skattejagten;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
