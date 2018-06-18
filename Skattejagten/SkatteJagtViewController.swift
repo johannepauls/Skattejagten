@@ -19,6 +19,8 @@ class SkatteJagtViewController: UIViewController, ARSCNViewDelegate {
     
     var proximityObserver: EPXProximityObserver?
     var proximityZones = [EPXProximityZone]()
+    var cylinder = SCNCylinder()
+    var node = SCNNode()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,7 +37,8 @@ class SkatteJagtViewController: UIViewController, ARSCNViewDelegate {
         // Set the scene to the view
         sceneView.scene = scene
         
-        createImage()
+
+        
         
         let cloudCredentials: EPXCloudCredentials = (UIApplication.shared.delegate as! AppDelegate).cloudCredentials
         proximityObserver = EPXProximityObserver(credentials: cloudCredentials, errorBlock: { error in
@@ -63,9 +66,8 @@ class SkatteJagtViewController: UIViewController, ARSCNViewDelegate {
     }
     
     func createImage() {
-        
-        let cylinder = SCNCylinder(radius: 0.1, height: 0.7)
-        let node = SCNNode(geometry: cylinder)
+        cylinder = SCNCylinder(radius: 0.1, height: 0.7)
+        node = SCNNode(geometry: cylinder)
         
         // assign image
         cylinder.firstMaterial?.diffuse.contents = UIImage(named: "boy-kopi.png")
@@ -76,37 +78,52 @@ class SkatteJagtViewController: UIViewController, ARSCNViewDelegate {
         
     }
     
+    func removeImage() {
+        node.removeFromParentNode()
+    }
+    
     
     func defineProximityZones() {
-        let healthCareDepartment = "Healthcare"
-        let zoneHealthcare = EPXProximityZone(range: .near, attachmentKey: "department", attachmentValue: healthCareDepartment)
-        zoneHealthcare.onEnterAction = { attachment in
-            self.logAction(message: "Entering \(healthCareDepartment)")
-        }
-        zoneHealthcare.onExitAction = { attachment in
-            self.logAction(message: "Exiting \(healthCareDepartment)")
-        }
-        zoneHealthcare.onChangeAction = { attachments in
-            let rooms = attachments.compactMap { $0.payload["room"]}
-            self.logAction(message: "Nearby \(healthCareDepartment) rooms: \(rooms)")
+        let behandlingsrum = "behandling"
+        let behandlingIT = EPXProximityZone(range: .near, attachmentKey: "room", attachmentValue: behandlingsrum)
+       
+        behandlingIT.onEnterAction = { attachment in
+            self.logAction(message: "Entering \(behandlingsrum)")
+            self.createImage()
         }
         
-        let iTDepartment = "EIT"
-        let zoneIT = EPXProximityZone(range: .near, attachmentKey: "department", attachmentValue: iTDepartment)
-        zoneIT.onEnterAction = { attachment in
-            self.logAction(message: "Entering \(iTDepartment)")
-        }
-        zoneIT.onExitAction = { attachment in
-            self.logAction(message: "Exiting \(iTDepartment)")
-        }
-        zoneIT.onChangeAction = { attachments in
-            let rooms = attachments.compactMap { $0.payload["room"]}
-            self.logAction(message: "Nearby \(iTDepartment) rooms: \(rooms)")
+        behandlingIT.onExitAction = { attachment in
+            self.logAction(message: "Exiting \(behandlingsrum)")
+            self.removeImage()
         }
         
-        proximityZones.append(zoneHealthcare)
-        proximityZones.append(zoneIT)
+        let gang = "gang"
+        let gangIT = EPXProximityZone(range: .near, attachmentKey: "room", attachmentValue: gang)
         
+        gangIT.onEnterAction = { attachment in
+            self.logAction(message: "Entering \(gang)")
+            self.createImage()
+        }
+        gangIT.onExitAction = { attachment in
+            self.logAction(message: "Exiting \(gang)")
+            self.removeImage()
+        }
+        
+        let venterum = "venterum"
+        let venteIT = EPXProximityZone(range: .near, attachmentKey: "room", attachmentValue: venterum)
+        
+       venteIT.onEnterAction = { attachment in
+            self.logAction(message: "Entering \(venterum)")
+            self.createImage()
+        }
+        
+        venteIT.onExitAction = { attachment in
+            self.logAction(message: "Exiting \(venterum)")
+            self.removeImage()
+        }
+        proximityZones.append(gangIT)
+        proximityZones.append(behandlingIT)
+        proximityZones.append(venteIT)
     }
     
     private func logAction(message: String) {
@@ -119,18 +136,5 @@ class SkatteJagtViewController: UIViewController, ARSCNViewDelegate {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-    
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

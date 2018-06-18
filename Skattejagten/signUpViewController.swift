@@ -10,6 +10,7 @@ import UIKit
 //import Firebase
 
 class signUpViewController: UIViewController, UITextFieldDelegate, UIPickerViewDataSource, UIPickerViewDelegate {
+    
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
     }
@@ -38,6 +39,9 @@ class signUpViewController: UIViewController, UITextFieldDelegate, UIPickerViewD
     let pickerView = UIPickerView()
     let favoriteColorPickerView = UIPickerView()
     let hairColorPickerView = UIPickerView()
+    
+    //let rootRef = Database.database().reference()
+    //let userinfoRef = Database.database().reference(withPath: "UserInformation")
     
     override func viewDidLoad() {
         super.viewDidLoad()
