@@ -342,7 +342,7 @@
         <!--Homepage-->
         <scene sceneID="d78-4G-xHB">
             <objects>
-                <viewController storyboardIdentifier="homeVCID" title="Homepage" id="vRh-aK-XKW" customClass="HomeViewController" customModule="Skattejagten" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Homepage" id="vRh-aK-XKW" customClass="HomeViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wiN-FH-HHF">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -351,23 +351,20 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w5F-CK-2Mi">
-                                <rect key="frame" x="169" y="242" width="206" height="200"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="RPx-YC-QI5"/>
-                                    <constraint firstAttribute="width" constant="206" id="ePg-Wy-LWE"/>
-                                </constraints>
+                                <rect key="frame" x="-509" y="-305" width="884" height="747"/>
+                                <gestureRecognizers/>
                                 <state key="normal" title="Button" image="Hospital"/>
                                 <connections>
-                                    <segue destination="3VA-Is-lqd" kind="show" id="ybB-I1-Yki"/>
+                                    <outletCollection property="gestureRecognizers" destination="9eG-dU-syA" appends="YES" id="QQp-ha-pDF"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VRd-qB-nI6">
-                                <rect key="frame" x="229" y="203" width="108" height="45"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="45" id="dE9-b7-Sxl"/>
-                                    <constraint firstAttribute="width" constant="108" id="ibQ-aE-Kv3"/>
-                                </constraints>
+                                <rect key="frame" x="-407" y="-14" width="744" height="262"/>
+                                <gestureRecognizers/>
                                 <state key="normal" title="Button" image="Heli"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="t6y-7e-o7d" appends="YES" id="1ob-cA-U9b"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Sti" translatesAutoresizingMaskIntoConstraints="NO" id="HHj-6l-hfM">
                                 <rect key="frame" x="10" y="433" width="271" height="234"/>
@@ -388,19 +385,16 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="59v-Dn-diA">
-                                <rect key="frame" x="-48" y="413" width="234" height="234"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="234" id="DrR-r8-FeU"/>
-                                    <constraint firstAttribute="height" constant="234" id="rEd-f6-IFv"/>
-                                </constraints>
+                                <rect key="frame" x="-380" y="135" width="566" height="512"/>
+                                <gestureRecognizers/>
                                 <state key="normal" title="Button" image="boy"/>
+                                <connections>
+                                    <action selector="afspilLyd:" destination="vRh-aK-XKW" eventType="touchUpInside" id="3O6-jt-ipS"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Tre" translatesAutoresizingMaskIntoConstraints="NO" id="rJ3-W8-D9d">
-                                <rect key="frame" x="1" y="325" width="67" height="95"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="95" id="blK-Tm-uxs"/>
-                                    <constraint firstAttribute="width" constant="67" id="slh-2W-1Es"/>
-                                </constraints>
+                                <rect key="frame" x="1" y="-580" width="718" height="1000"/>
+                                <gestureRecognizers/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -427,15 +421,30 @@
                         <viewLayoutGuide key="safeArea" id="FHh-mB-56O"/>
                     </view>
                     <navigationItem key="navigationItem" id="XYj-vG-lwL"/>
+                    <connections>
+                        <outlet property="boylaunch" destination="59v-Dn-diA" id="K69-yt-h85"/>
+                        <outlet property="helicopterImageView" destination="VRd-qB-nI6" id="aBN-zZ-cXp"/>
+                        <outlet property="hospital" destination="w5F-CK-2Mi" id="ITf-TT-Gs6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wel-jL-9ry" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="t6y-7e-o7d">
+                    <connections>
+                        <action selector="tapToLaunch:" destination="vRh-aK-XKW" id="UW4-VZ-cZg"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="9eG-dU-syA">
+                    <connections>
+                        <action selector="tapboy:" destination="vRh-aK-XKW" id="jNG-Kx-KIo"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="845.60000000000002" y="135.38230884557723"/>
         </scene>
         <!--Hospizoom-->
         <scene sceneID="8WZ-gt-btC">
             <objects>
-                <viewController title="Hospizoom" id="3VA-Is-lqd" customClass="HospitalViewController" customModule="Skattejagten" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HospitalVCID" title="Hospizoom" id="3VA-Is-lqd" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jOR-77-jKh">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -602,7 +611,7 @@
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Stetoskopdysten" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cDh-Fb-d6g">
-                                <rect key="frame" x="76" y="230" width="253" height="43"/>
+                                <rect key="frame" x="77" y="220" width="253" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
